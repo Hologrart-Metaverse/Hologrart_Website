@@ -4,8 +4,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from "react";
 import { _blank } from "./actions/_blnak";
 
-import _Blank from "./pages/_blank";
-import Navbar from "./components/Navbar";
+import Navbar1 from "./components/Navbar-v1";
+import Home from "./pages/Home";
 
 function App() {
   const _default = useSelector((state) => state._default);
@@ -17,9 +17,9 @@ function App() {
   }, [])
   return (
     <div className="App">
-      <Navbar />
+      <Navbar1 />
       <Routes>
-        <Route index element={<_Blank />} />
+        <Route index element={<Home />} />
       </Routes>
     </div>
   );

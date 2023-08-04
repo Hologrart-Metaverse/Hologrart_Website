@@ -29,3 +29,76 @@ code {
   font-family: "HelveticaMedium";
   src: url("./assets/fonts/HelveticaNowDisplay-Medium.ttf");
 }
+
+.abril {
+  font-family: 'Abril Fatface', cursive;
+}
+.alfa {
+  font-family: 'Alfa Slab One', cursive;
+}
+.anton {
+  font-family: 'Anton', sans-serif;
+}
+.archivo {
+  font-family: 'Archivo Black', sans-serif;
+}
+.caprasimo {
+  font-family: 'Caprasimo', cursive;
+}
+.noto {
+  font-family: 'Noto Serif', serif;
+}
+.press {
+  font-family: 'Press Start 2P', cursive;
+}
+.rem {
+  font-family: 'REM', sans-serif;
+}
+.rubik {
+  font-family: 'Rubik Bubbles', cursive;
+}
+
+
+@keyframes bgSlider {
+  0% {
+    background-position: 250px;
+  }
+  50% {
+    background-position: -250px;
+  }
+  100% {
+    background-position: 250px;
+  } 
+}
+
+@keyframes cartAnim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cardAnimation {
+  animation: infinite 10s ease-in-out cartAnim;
+}
+
+.txt {
+  background: linear-gradient(91.85deg, #ecede1 -7.75%, #cd44e5 47.47%, #ede1f0 107.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  letter-spacing: -30px;
+
+  -webkit-transition: background 1s ease-out;  
+  -moz-transition: background 1s ease-out;  
+  -o-transition: background 1s ease-out;  
+  transition: background 1s ease-out;
+
+  animation: infinite 5s ease-in-out bgSlider;
+}

@@ -4,7 +4,7 @@ import HologrartLogo from "../assets/images/purple-whiteLines.svg";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
-const Navbar = () => {
+const Navbar1 = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
     <div className='bg-black px-5 py-2 shadow-2xl shadow-white/20 fixed top-0 w-screen z-30'>
@@ -21,20 +21,14 @@ const Navbar = () => {
                     <li className='cursor-pointer text-[16px]'>Mobability</li>
                     <li className='cursor-pointer text-[16px]'>Virtual Fit</li>
                     <li className='cursor-pointer text-[16px]'>Our DNA</li>
-                    <li className='cursor-pointer text-[16px]'>DAO</li>
-                    <li className='cursor-pointer text-[16px]'>Blog</li>
-                    <li className='cursor-pointer text-[16px]'>News</li>
-                    <li className='cursor-pointer text-[16px]'>Hiring</li>
-                    <li className='cursor-pointer text-[16px]'>FAQ</li>
                 </ul>
             </div>
             <div className='text-white flex justify-center items-center'>
-                <button className='cursor-pointer py-3 px-5 bg-purple-700'>Join Us</button>
-                <div className="cursor-pointer py-1.5 pr-4 pl-2 border-[3px] border-purple-700 border-l-[18px]" onClick={() => {setIsOpen(!isOpen);}}>Launch {isOpen ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}</div>
+                <button className='cursor-pointer rounded-md py-3 px-5 bg-purple-700'>Join Us</button>
             </div>
         </div>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar1

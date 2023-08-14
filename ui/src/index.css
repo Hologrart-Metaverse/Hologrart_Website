@@ -63,6 +63,14 @@ code {
 }
 
 
+.metaverse {
+  background-image: url("./assets/images/metaverse-scene.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 @keyframes bgSlider {
   0% {
     background-position: 250px;

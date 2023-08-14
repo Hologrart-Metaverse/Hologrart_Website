@@ -6,6 +6,7 @@ import { _blank } from "./actions/_blnak";
 
 import Navbar1 from "./components/Navbar-v1";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   const _default = useSelector((state) => state._default);
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

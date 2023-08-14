@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
-import Hero from '../components/HomeComponents/Hero'
-import Metaverse from '../components/HomeComponents/Metaverse'
-import Jnft from '../components/HomeComponents/Jnft'
-import VirtualFit from '../components/HomeComponents/VirtualFit'
-import Mobability from '../components/HomeComponents/Mobability'
-import Footer from '../components/Footer'
+import React, { useEffect } from 'react';
+import Hero from '../components/HomeComponents/Hero';
+import Metaverse from '../components/HomeComponents/Metaverse';
+import Jnft from '../components/HomeComponents/Jnft';
+import VirtualFit from '../components/HomeComponents/VirtualFit';
+import Mobability from '../components/HomeComponents/Mobability';
+import Dna from '../components/HomeComponents/Dna';
 
 const Home = () => {
   
@@ -16,7 +16,7 @@ const Home = () => {
     <div>
         <Hero />
 
-        <div id='metaverse'>
+        <div id='metaverse' className='metaverse'>
           <Metaverse />
         </div>
 
@@ -32,7 +32,9 @@ const Home = () => {
           <Mobability />
         </div>
 
-        <Footer />
+        <div id='dna'>
+          <Dna />
+        </div>
     </div>
   )
 }

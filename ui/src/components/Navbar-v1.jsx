@@ -40,7 +40,8 @@ const Navbar1 = () => {
                 </ul>
             </div>
             <div className='text-white flex justify-center items-center'>
-                <a href='https://discord.gg/eJMsGzMNXZ' target='_blank' className='cursor-pointer rounded-md py-3 px-5 bg-purple-700'>Join Us</a>
+                <a href='https://discord.gg/eJMsGzMNXZ' target='_blank' className='cursor-pointer py-3 px-5 bg-purple-700 border-t-4 border-b-4 border-purple-700'>Join Us</a>
+                <a href='https://discord.gg/eJMsGzMNXZ' target='_blank' className='cursor-pointer py-3 px-5 border-4 border-purple-700 hover:bg-purple-700/40 transition-all duration-300'>Launch</a>
             </div>
         </div>
     </div>

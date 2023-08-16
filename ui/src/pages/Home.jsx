@@ -16,19 +16,27 @@ const Home = () => {
     <div>
         <Hero />
 
+        <div className='h-0.5 2-full bg-orange-400'></div>
+
         <div id='metaverse' className='metaverse'>
           <Metaverse />
         </div>
 
-        <div id='jnft'>
+        <div className='h-0.5 2-full bg-orange-400'></div>
+
+        <div id='jnft' className='jnft'>
           <Jnft />
         </div>
 
-        <div id='virtualfit'>
+        <div className='h-0.5 2-full bg-orange-400'></div>
+
+        <div id='virtualfit' className='virtualfit'>
           <VirtualFit />
         </div>
 
-        <div id='mobability'>
+        <div className='h-0.5 2-full bg-orange-400'></div>
+
+        <div id='mobability' className='mobability'>
           <Mobability />
         </div>
 

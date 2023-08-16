@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Footer = () => {
   const navigation = useNavigate();
   return (
-    <div className='px-10 py-24 text-white'>
+    <div className='px-10 pt-24 pb-6 text-white'>
       <div className='container max-w-7xl mx-auto flex justify-between'>
         
         <div className='w-full flex flex-col justify-center items-center'>
@@ -45,6 +45,11 @@ const Footer = () => {
             <li className='cursor-pointer'><button>Discord</button></li>
           </ul>
         </div>
+      </div>
+
+
+      <div className='container max-w-7xl mx-auto flex justify-between mt-16'>
+        <p>All rights are reserved © 2023 Hologrart</p>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Berkay from "../../assets/images/berkay.jpg"
 import Doguk from "../../assets/images/doguk.jpg";
 import Menice from "../../assets/images/menice.jpg";
 import Didem from "../../assets/images/didem.jpeg";
@@ -18,7 +19,7 @@ const Dna = () => {
         
         <div className='grid gap-10 grid-cols-2 mt-20'>
           <div className='grid gap-10 grid-cols-5'>
-              <img className='col-span-2 w-full rounded-full' src={Doguk} alt="berkay gülbeyaz" srcset="" />
+              <img className='col-span-2 w-full rounded-full' src={Berkay} alt="berkay gülbeyaz" srcset="" />
               <div className='col-span-3'>
                 <h3 className='text-3xl anton'>BERKAY GÜLBEYAZ</h3>
                 <h3 className='text-3xl text-red-600/40 anton'>CHIEF EXECUTIVE OFFICER</h3>

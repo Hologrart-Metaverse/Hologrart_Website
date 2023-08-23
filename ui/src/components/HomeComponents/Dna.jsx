@@ -44,7 +44,7 @@ const Dna = () => {
               <div className='col-span-3'>
                 <h3 className='text-3xl anton'>DOĞUKAN TOPÇU</h3>
                 <h3 className='text-3xl text-blue-600/40 anton'>CHIEF TECHNOLOGY OFFICER</h3>
-
+æ
                 <ul className='text-sm mt-3'>
                   <li>Web Developer</li>
                   <li>Game Developer</li>

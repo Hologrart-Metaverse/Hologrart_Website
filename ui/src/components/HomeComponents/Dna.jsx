@@ -27,9 +27,9 @@ const Dna = () => {
                 <ul className='text-sm mt-3'>
                   <li>Hello world</li>
                   <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
+                  <li>Bachelor Student at İzmir Bakırçay University</li>
+                  <li>Management and Technology Systems</li>
+                  <li>Entrepreneur at BTM, İzmir Teknopark, Yıldız Teknopark</li>
                 </ul>
 
                 <div className='mt-2 flex'>
@@ -43,14 +43,14 @@ const Dna = () => {
               <img className='col-span-2 w-full rounded-full' src={Doguk} alt="doğukan topçu" srcset="" />
               <div className='col-span-3'>
                 <h3 className='text-3xl anton'>DOĞUKAN TOPÇU</h3>
-                <h3 className='text-3xl text-blue-600/40 anton'>CHIEF OF TECHNOLOGY OFFICER</h3>
+                <h3 className='text-3xl text-blue-600/40 anton'>CHIEF TECHNOLOGY OFFICER</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
+                  <li>Web Developer</li>
+                  <li>Game Developer</li>
+                  <li>Undergraduate Student at İzmir Institute of Technology</li>
+                  <li>Computer Engineering department</li>
+                  <li>Entrepreneur at BTM, İzmir Teknopark, Yıldız Teknopark</li>
                 </ul>
 
                 <div className='mt-2 flex'>
@@ -112,8 +112,8 @@ const Dna = () => {
                 <ul className='text-sm mt-3'>
                   <li>Hello world</li>
                   <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
+                  <li>Bachelor Student at İzmir Institute of Technology</li>
+                  <li>Computer Engineering department</li>
                   <li>Hello world</li>
                 </ul>
 

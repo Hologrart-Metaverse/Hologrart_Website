@@ -25,16 +25,16 @@ const Dna = () => {
                 <h3 className='text-3xl text-red-600/40 anton'>CHIEF EXECUTIVE OFFICER</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Bachelor Student at İzmir Bakırçay University</li>
-                  <li>Management and Technology Systems</li>
+                  <li>Founder</li>
+                  <li>Strategic Management</li>
+                  <li>Undergraduate Student at İzmir Bakırçay University</li>
+                  <li>Management Information Systems</li>
                   <li>Entrepreneur at BTM, İzmir Teknopark, Yıldız Teknopark</li>
                 </ul>
 
                 <div className='mt-2 flex'>
                   <TwitterIcon className='cursor-pointer mr-1' />
-                  <LinkedInIcon className='cursor-pointer' />
+                  <a href="https://www.linkedin.com/in/berkay-g%C3%BClbeyaz/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>
           </div>
@@ -45,17 +45,16 @@ const Dna = () => {
                 <h3 className='text-3xl anton'>DOĞUKAN TOPÇU</h3>
                 <h3 className='text-3xl text-blue-600/40 anton'>CHIEF TECHNOLOGY OFFICER</h3>
                 <ul className='text-sm mt-3'>
-                  <li>Web Developer</li>
-                  <li>Game Developer</li>
+                  <li>Co-Founder</li>
+                  <li>Web Developer, Game Developer</li>
                   <li>Undergraduate Student at İzmir Institute of Technology</li>
                   <li>Computer Engineering department</li>
                   <li>Entrepreneur at BTM, İzmir Teknopark, Yıldız Teknopark</li>
                 </ul>
 
                 <div className='mt-2 flex'>
-                  <TwitterIcon className='cursor-pointer mr-1' />
-                  <LinkedInIcon className='cursor-pointer mr-1' />
-                  <GitHubIcon className='cursor-pointer' />
+                  <a href="https://www.linkedin.com/in/do%C4%9Fukan-top%C3%A7u-367b24220/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer mr-1' /></a>
+                  <a href="https://github.com/DogukanTopcu" target="_blank" rel="noopener noreferrer"><GitHubIcon className='cursor-pointer' /></a>
                 </div>
               </div>
           </div>
@@ -76,7 +75,7 @@ const Dna = () => {
 
                 <div className='mt-2 flex'>
                   <TwitterIcon className='cursor-pointer mr-1' />
-                  <LinkedInIcon className='cursor-pointer' />
+                  <a href="https://www.linkedin.com/in/menice-sude-g%C3%B6rba%C5%9F-53a6a01a6/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>
           </div>
@@ -97,7 +96,7 @@ const Dna = () => {
 
                 <div className='mt-2 flex'>
                   <TwitterIcon className='cursor-pointer mr-1' />
-                  <LinkedInIcon className='cursor-pointer' />
+                  <a href="https://www.linkedin.com/in/didemoksel/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>
           </div>
@@ -109,16 +108,16 @@ const Dna = () => {
                 <h3 className='text-3xl text-purple-600/40 anton'>BLOCKCHAIN ADVISER</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
+                  <li>Blockchain Developer</li>
+                  <li>Web3 Influencer</li>
                   <li>Bachelor Student at İzmir Institute of Technology</li>
                   <li>Computer Engineering department</li>
-                  <li>Hello world</li>
+                  <li>Investor in Web2&Web3</li>
                 </ul>
 
                 <div className='mt-2 flex'>
                   <TwitterIcon className='cursor-pointer mr-1' />
-                  <LinkedInIcon className='cursor-pointer' />
+                  <a href="https://www.linkedin.com/in/emreyildiz1/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>
           </div>

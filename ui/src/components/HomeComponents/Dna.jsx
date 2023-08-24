@@ -11,6 +11,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+import { AiFillBehanceCircle } from "react-icons/ai";
+
 const Dna = () => {
   return (
     <div className='container max-w-7xl mx-auto text-white py-16'>
@@ -25,15 +27,15 @@ const Dna = () => {
                 <h3 className='text-3xl text-red-600/40 anton'>CHIEF EXECUTIVE OFFICER</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Founder</li>
-                  <li>Strategic Management</li>
+                  <li>Founder, Strategic Management</li>
+                  <li>Web3 Influencer</li>
                   <li>Undergraduate Student at İzmir Bakırçay University</li>
                   <li>Management Information Systems</li>
                   <li>Entrepreneur at BTM, İzmir Teknopark, Yıldız Teknopark</li>
                 </ul>
 
                 <div className='mt-2 flex'>
-                  <TwitterIcon className='cursor-pointer mr-1' />
+                  {/* <TwitterIcon className='cursor-pointer mr-1' /> */}
                   <a href="https://www.linkedin.com/in/berkay-g%C3%BClbeyaz/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>
@@ -87,16 +89,18 @@ const Dna = () => {
                 <h3 className='text-3xl text-green-600/40 anton'>FASHION DESIGNER</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
+                  <li>Fashion Designer/ Digital Fashion</li>
+                  <li>Freelancer 3d designer</li>
+                  <li>Bachelor's Degree Anadolu University Fashion Design</li>
+                  <li>Hologrart metaverse</li>
+                  <li>Longstage metaverse</li>
                 </ul>
 
                 <div className='mt-2 flex'>
-                  <TwitterIcon className='cursor-pointer mr-1' />
+                  <a href="https://twitter.com/3ddidem49838?t=-xtKmr1arnOqDbkDD0jRfA&s=09" target="_blank" rel="noopener noreferrer"><TwitterIcon className='cursor-pointer mr-1' /></a>
                   <a href="https://www.linkedin.com/in/didemoksel/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
+                  <a href="https://www.behance.net/didemoksel" target="_blank" rel="noopener noreferrer" className='flex justify-center items-center p-0.5 ml-0.5'><AiFillBehanceCircle fontSize={24} /></a>
+                  <a href="https://instagram.com/3designerdidem?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer"><InstagramIcon /></a>
                 </div>
               </div>
           </div>
@@ -116,7 +120,7 @@ const Dna = () => {
                 </ul>
 
                 <div className='mt-2 flex'>
-                  <TwitterIcon className='cursor-pointer mr-1' />
+                  <a href="https://x.com/emreyeth?s=11&t=BDdWMiIwolq5Bo20F_3cVg" target="_blank" rel="noopener noreferrer"><TwitterIcon className='cursor-pointer mr-1' /></a>
                   <a href="https://www.linkedin.com/in/emreyildiz1/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>

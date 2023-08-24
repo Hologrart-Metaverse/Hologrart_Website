@@ -86,12 +86,12 @@ const Metaverse = () => {
             </div>
         </div>
 
-        <div className='mt-10'>
+        <div className='mt-10 mb-16'>
             <h2 className='text-[32px] mt-10 mb-5 font-bold archivo'>Check out the Pre-Alpha Release</h2>
             <p className='col-span-2 h-full text-[24px] flex items-center justify-center'>For enthusiasts, it is possible to access the pre-alpha version. This way, you can closely follow the development process of Hologrart Metaverse and have the opportunity to experience the experience in advance.</p>
         </div>
         
-        <button className='mt-10 text-purple-400 text-xl border-4 border-purple-800 px-4 py-2 hover:text-white hover:bg-purple-800 transition-all duration-300'>Try pre-Alfa <OpenInNewIcon /></button>
+        <a target='_blank' href='https://metaverse.hologrart.com/' className='mt-10 text-purple-400 text-xl border-4 border-purple-800 px-6 py-4 hover:text-white hover:bg-purple-800 transition-all duration-300'>Try pre-Alfa <OpenInNewIcon /></a>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import JNFT1 from "../../assets/images/jnft1.jpg";
 import JNFT2 from "../../assets/images/jnft2.png";
@@ -8,12 +8,29 @@ import JNFT5 from "../../assets/images/jnft5.png";
 import JNFT6 from "../../assets/images/jnft6.jpg";
 
 
+// const Card = ({title, desc, img}) => {
+//     return (
+//         <div className='flex flex-col gap-6 items-center p-5'>
+//             <img className='rounded-xl  max-h-56' src={img} alt="img" />
+//             <h2 className='text-4xl text-center anton'>{title}</h2>
+//             <p className='text-center'>{desc}</p>
+//         </div>
+//     )
+// }
+
 const Card = ({title, desc, img}) => {
+    const [isHover, setIsHover] = useState(false);
     return (
-        <div className='flex flex-col gap-6 items-center p-5'>
-            <img className='rounded-xl  max-h-56' src={img} alt="img" />
-            <h2 className='text-4xl text-center anton'>{title}</h2>
-            <p className='text-center'>{desc}</p>
+        <div onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} className='card-wrap'>
+            <img className='object-cover' src={img} alt="img" />
+            <div className='bottom-wrap absolute z-10 w-full h-1/3 transition-all duration-300'>
+                <div className='w-full backdrop-blur-xl bg-black/20 px-5 py-2 h-full flex flex-col items-center justify-center '>
+                    <h2 className='text-xl w-full text-center anton'>{title}</h2>
+                    {
+                        isHover ? <p className='text-center mt-3 text-white/80'>{desc}</p> : null
+                    }
+                </div>
+            </div>
         </div>
     )
 }
@@ -22,7 +39,7 @@ const Jnft = () => {
   return (
     <div className='container max-w-7xl mx-auto text-white py-16'>
         <h1 className='anton text-6xl'>JOINT NFT GENERATION:</h1>
-        <h1 className='anton text-6xl text-purple-600/40'>NEW GENe NFT GENERATION</h1>
+        <h1 className='anton text-6xl text-purple-600/40'>NEW GENE NFT GENERATION</h1>
         
         {/* TODO: Fill content */}
         <div className='mt-10'>
@@ -30,7 +47,6 @@ const Jnft = () => {
         </div>
 
         <h1 className='anton text-5xl mt-16'>FEATURES:</h1>
-        <p>Virtual Fit brings a breath of fresh air to fashion and clothing. Offering an augmented reality experience, this mobile application offers users an experience beyond online shopping. It includes many features from trying on clothing products on a virtual platform to creating custom animations and sharing fashion with social media filters. Here are the remarkable features of Virtual Fit:</p>
         
         
         <div className='grid grid-cols-3 gap-10 mt-10'>

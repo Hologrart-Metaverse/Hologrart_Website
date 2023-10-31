@@ -5,6 +5,7 @@ import Jnft from '../components/HomeComponents/Jnft';
 import VirtualFit from '../components/HomeComponents/VirtualFit';
 import Mobability from '../components/HomeComponents/Mobability';
 import Dna from '../components/HomeComponents/Dna';
+import News from '../components/HomeComponents/News';
 
 const Home = () => {
   
@@ -30,6 +31,12 @@ const Home = () => {
 
         <div className='h-0.5 2-full bg-orange-400'></div>
 
+        <div id='news' className='news'>
+          <News />
+        </div>
+
+        {/* <div className='h-0.5 2-full bg-orange-400'></div>
+
         <div id='virtualfit' className='virtualfit'>
           <VirtualFit />
         </div>
@@ -38,7 +45,7 @@ const Home = () => {
 
         <div id='mobability' className='mobability'>
           <Mobability />
-        </div>
+        </div> */}
 
         <div id='dna'>
           <Dna />

@@ -2,7 +2,8 @@ import React from 'react';
 
 import Berkay from "../../assets/images/berkay.jpg"
 import Doguk from "../../assets/images/doguk.jpg";
-import Menice from "../../assets/images/menice.jpg";
+import Mali from "../../assets/images/mali.jpg";
+import Elif from "../../assets/images/elif.jpeg";
 import Didem from "../../assets/images/didem.jpeg";
 import Emre from "../../assets/images/emre.jpg";
 
@@ -62,22 +63,23 @@ const Dna = () => {
           </div>
 
           <div className='grid gap-10 grid-cols-5'>
-              <img className='col-span-2 w-full rounded-full' src={Menice} alt="menice sude görbaş" srcset="" />
+              <img className='col-span-2 w-full rounded-full' src={Elif} alt="menice sude görbaş" srcset="" />
               <div className='col-span-3'>
-                <h3 className='text-3xl anton'>MENİCE SUDE GÖRBAŞ</h3>
+                <h3 className='text-3xl anton'>Elifnur Akdolan</h3>
                 <h3 className='text-3xl text-yellow-600/40 anton'>DESIGNER</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
-                  <li>Hello world</li>
+                  <li>3D Designer</li>
+                  <li>UI/UX Designer</li>
+                  <li>Bacherlor’s Degree at Yasar University</li>
+                  <li>Industrial Design</li>
+                  <li>Rendering and Animation</li>
                 </ul>
 
                 <div className='mt-2 flex'>
-                  <TwitterIcon className='cursor-pointer mr-1' />
-                  <a href="https://www.linkedin.com/in/menice-sude-g%C3%B6rba%C5%9F-53a6a01a6/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
+                  <a href="https://www.behance.net/elifnurakdolan" target="_blank" rel="noopener noreferrer" className='flex justify-center items-center p-0.5 ml-0.5'><AiFillBehanceCircle fontSize={24} /></a>
+                  <a href="https://www.linkedin.com/in/elifnur-akdolan-268339208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
+                  <a href="https://instagram.com/elifakdolan?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer"><InstagramIcon /></a>
                 </div>
               </div>
           </div>
@@ -106,15 +108,15 @@ const Dna = () => {
           </div>
 
           <div className='grid gap-10 grid-cols-5'>
-              <img className='col-span-2 w-full rounded-full' src={Emre} alt="emre yıldız" srcset="" />
+              <img className='col-span-2 w-full rounded-full' src={Mali} alt="emre yıldız" srcset="" />
               <div className='col-span-3'>
-                <h3 className='text-3xl anton'>EMRE YILDIZ</h3>
-                <h3 className='text-3xl text-purple-600/40 anton'>BLOCKCHAIN ADVISER</h3>
+                <h3 className='text-3xl anton'>Muahammet Ali Tural</h3>
+                <h3 className='text-3xl text-purple-600/40 anton'>Developer</h3>
 
                 <ul className='text-sm mt-3'>
-                  <li>Blockchain Developer</li>
-                  <li>Web3 Influencer</li>
-                  <li>Bachelor Student at İzmir Institute of Technology</li>
+                  <li>Game Developer</li>
+                  <li>Game Designer</li>
+                  <li>Student at İzmir Institute of Technology</li>
                   <li>Computer Engineering department</li>
                   <li>Investor in Web2&Web3</li>
                 </ul>
@@ -125,6 +127,28 @@ const Dna = () => {
                 </div>
               </div>
           </div>
+
+          <div className='grid gap-10 grid-cols-5'>
+              <img className='col-span-2 w-full rounded-full' src={Emre} alt="emre yıldız" srcset="" />
+              <div className='col-span-3'>
+                <h3 className='text-3xl anton'>EMRE YILDIZ</h3>
+                <h3 className='text-3xl text-purple-600/40 anton'>BLOCKCHAIN ADVISER</h3>
+
+                <ul className='text-sm mt-3'>
+                  <li>Blockchain Developer</li>
+                  <li>Web3 Influencer</li>
+                  <li>Student at İzmir Institute of Technology</li>
+                  <li>Computer Engineering Department</li>
+                  <li>Investor in Web2&Web3</li>
+                </ul>
+
+                <div className='mt-2 flex'>
+                  <a href="https://x.com/emreyeth?s=11&t=BDdWMiIwolq5Bo20F_3cVg" target="_blank" rel="noopener noreferrer"><TwitterIcon className='cursor-pointer mr-1' /></a>
+                  <a href="https://www.linkedin.com/in/emreyildiz1/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
+                </div>
+              </div>
+          </div>
+
         </div>
     </div>
   )

@@ -64,19 +64,25 @@ code {
 
 
 .metaverse {
-  background-image: url("./assets/images/metaverse-scene.png");
+  /* background-image: url("./assets/images/white_wall.jpg"); */
+  background-color: beige;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.jnft {
+  background-image: url("./assets/images/black_wall.jpg");
+  /* background-color: black; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
 
-.jnft {
-  background-image: url("./assets/images/a.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+.news {
+  background-color: white;
 }
 
 .virtualfit {
@@ -138,4 +144,58 @@ code {
   transition: background 1s ease-out;
 
   animation: infinite 5s ease-in-out bgSlider;
+}
+
+
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border: 2px solid #272727;
+  border-radius: 16px;
+  /* height: 320px; */
+  justify-content: flex-end;
+
+  overflow: hidden;
+  position: relative;
+  transition-duration: .1s;
+  transition-property: all;
+  transition-timing-function: ease;
+  width: 100%;
+
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.card-wrap:hover .bottom-wrap {
+  height: 100%;
+}
+
+
+.card-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+}
+
+.bottom-wrapper {
+  align-items: flex-start;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  background: rgba(0,0,0,.475);
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: flex-start;
+  margin-top: auto;
+  padding: 15px 15px 24px;
+  position: relative;
+  transition-duration: .25s;
+  transition-property: all;
+  transition-timing-function: ease;
+  width: 100%;
 }

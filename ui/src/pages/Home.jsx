@@ -31,9 +31,9 @@ const Home = () => {
 
         <div className='h-0.5 2-full bg-orange-400'></div>
 
-        <div id='news' className='news'>
+        {/* <div id='news' className='news'>
           <News />
-        </div>
+        </div> */}
 
         {/* <div className='h-0.5 2-full bg-orange-400'></div>
 

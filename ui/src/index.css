@@ -63,6 +63,21 @@ code {
 }
 
 
+.navbar {
+  /* background-image: url("./assets/images/bg.gif"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.hero {
+  background-image: url("./assets/images/bg3.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .metaverse {
   /* background-image: url("./assets/images/white_wall.jpg"); */
   background-color: beige;

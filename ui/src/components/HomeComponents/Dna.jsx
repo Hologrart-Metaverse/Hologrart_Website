@@ -110,20 +110,19 @@ const Dna = () => {
           <div className='grid gap-10 grid-cols-5'>
               <img className='col-span-2 w-full rounded-full' src={Mali} alt="emre yıldız" srcset="" />
               <div className='col-span-3'>
-                <h3 className='text-3xl anton'>Muahammet Ali Tural</h3>
-                <h3 className='text-3xl text-purple-600/40 anton'>Developer</h3>
+                <h3 className='text-3xl anton'>Muhammet Ali Tural</h3>
+                <h3 className='text-3xl text-purple-600/40 anton'>DEVELOPER</h3>
 
                 <ul className='text-sm mt-3'>
                   <li>Game Developer</li>
-                  <li>Game Designer</li>
-                  <li>Student at İzmir Institute of Technology</li>
-                  <li>Computer Engineering department</li>
-                  <li>Investor in Web2&Web3</li>
+                  <li>Unity C# Developer</li>
+                  <li>Bachelor's Degree at Uludag University</li>
+                  <li>Computer Engineering Departmant</li>
+                  <li>Hologrart Metaverse, Liya Games</li>
                 </ul>
 
                 <div className='mt-2 flex'>
-                  <a href="https://x.com/emreyeth?s=11&t=BDdWMiIwolq5Bo20F_3cVg" target="_blank" rel="noopener noreferrer"><TwitterIcon className='cursor-pointer mr-1' /></a>
-                  <a href="https://www.linkedin.com/in/emreyildiz1/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
+                  <a href="https://www.linkedin.com/in/muhammed-ali-tural/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='cursor-pointer' /></a>
                 </div>
               </div>
           </div>

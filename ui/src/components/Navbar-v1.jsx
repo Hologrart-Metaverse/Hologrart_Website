@@ -9,10 +9,12 @@ const Navbar1 = () => {
   return (
     <div className='navbar bg-black px-5 py-2 shadow-2xl shadow-white/10 fixed top-0 w-screen z-30'>
         <div className='container max-w-7xl mx-auto flex justify-between items-center'>
-            <button onClick={() => navigation("/")} className='flex'>
+            <button onClick={() => navigation("/")} className=''>
                 <div className='w-24 h-24 rounded-full bg-purple-700 blur-2xl absolute -mt-12 z-0 -ml-7' />
-                <img src={HologrartLogo} alt="Logo" className='w-12 h-12 relative z-10' />
-                <img src={Hologrart} alt="" srcset="" className='pointer-events-none w-64 ml-4' />
+                <div className='flex items-center justify-center'>
+                    <img src={HologrartLogo} alt="Logo" className='w-12 h-12 relative z-10' />
+                    <img src={Hologrart} alt="" srcset="" className='pointer-events-none w-64 ml-4' />
+                </div>
             </button>
             <div>
                 <ul className='flex justify-between items-center gap-5 text-white'>

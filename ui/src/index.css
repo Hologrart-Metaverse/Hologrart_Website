@@ -80,7 +80,7 @@ code {
 
 .metaverse {
   /* background-image: url("./assets/images/white_wall.jpg"); */
-  background-color: beige;
+  background: linear-gradient(beige, #c891e5, #a875ef);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

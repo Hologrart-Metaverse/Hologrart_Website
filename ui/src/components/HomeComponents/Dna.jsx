@@ -16,11 +16,11 @@ import { AiFillBehanceCircle } from "react-icons/ai";
 
 const Dna = () => {
   return (
-    <div className='container max-w-7xl mx-auto text-white py-16'>
-        <h1 className='anton text-6xl'>OUR DNA:</h1>
-        <h1 className='anton text-6xl text-blue-600/40'>BRAIN TEAM</h1>
+    <div className='container max-w-7xl mx-auto text-white py-16 lg:px-0 px-3'>
+        <h1 className='anton text-4xl sm:text-6xl'>OUR DNA:</h1>
+        <h1 className='anton text-4xl sm:text-6xl text-blue-600/40'>BRAIN TEAM</h1>
         
-        <div className='grid gap-10 grid-cols-2 mt-20'>
+        <div className='grid gap-10 md:grid-cols-2 grid-cols-1 mt-20'>
           <div className='grid gap-10 grid-cols-5'>
               <img className='col-span-2 w-full rounded-full' src={Berkay} alt="berkay gülbeyaz" srcset="" />
               <div className='col-span-3'>
